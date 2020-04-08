@@ -8,3 +8,21 @@ body
 	background:lightgray;
 	font-family: Bahnschrift, Comic Sans MS, "Arial";
 }
+#CONTENIDO
+{
+	width:400px;
+	margin:6px auto;
+	border:2px solid black;
+}
+#ENCABEZADO
+{
+	width:400px;
+	margin:6px auto;
+	border:2px solid black;
+}
+#PIE
+{
+	width:400px;
+	margin:6px auto;
+	border:2px solid black;
+}
