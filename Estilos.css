@@ -10,33 +10,27 @@ body
 }
 #CONTENIDO
 {
-    background:gray;
-	width:400px;
-	margin:6px auto;
-	border:2px solid black;
+    background: gray;
+    width: 400px;
+    margin: 6px auto;
+    border: 2px solid black;
+    border-bottom: 3px dashed black;
 }
 #ENCABEZADO
-{
-    background:gray;
-	width:400px;
-	margin:6px auto;
-	border:2px solid black;
-}
-#PIE
 {
     background: gray;
     width: 400px;
     margin: 6px auto;
     border: 2px solid black;
+    color: white;
+    border-bottom: 3px dashed black;
 }
-header
-{
-	color:white;
-	border-bottom: 3px dashed black;
-	
+#PIE
+{ 
+    background: gray;
+    width: 400px;
+    margin: 6px auto;
+    border: 2px solid black;
+    border-bottom: 3px dashed black;
 }
-section
-{
-	border-bottom: 3px dashed black;
-	
-}
+
