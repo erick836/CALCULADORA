@@ -5,32 +5,41 @@
 }
 body
 {
-	background:lightgray;
+	background:#63e6be;
 	font-family: Bahnschrift, Comic Sans MS, "Arial";
 }
 #CONTENIDO
 {
-    background: gray;
-    width: 400px;
-    margin: 6px auto;
-    border: 2px solid black;
-    border-bottom: 3px dashed black;
+    background:#15aabf;
+	width:400px;
+	margin:6px auto;
+	border:2px solid black;
 }
 #ENCABEZADO
 {
-    background: gray;
-    width: 400px;
-    margin: 6px auto;
-    border: 2px solid black;
-    color: white;
-    border-bottom: 3px dashed black;
+    background:#0b7285;
+	width:400px;
+	margin:6px auto;
+	border:2px solid black;
 }
 #PIE
-{ 
-    background: gray;
+{
+    background: #0b7285;
     width: 400px;
     margin: 6px auto;
     border: 2px solid black;
-    border-bottom: 3px dashed black;
 }
-
+header
+{
+	color:white;
+	border-bottom: 3px dashed black;
+	
+}
+section
+{
+	border-bottom: 3px dashed black;
+}
+footer
+{
+	color:white;
+}
