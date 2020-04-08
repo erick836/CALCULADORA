@@ -2,7 +2,7 @@
 $VALOR1=$_POST['N1'];
 $VALOR2=$_POST['N2'];
 $OPERACION=$_POST['OPERACION'];
-
+ 
 if ($OPERACION == 'SUMA')
 {
 	echo "LA SUMA ES: ".($VALOR1+$VALOR2);
@@ -19,6 +19,5 @@ if ($OPERACION == 'DIVISION')
 {
 echo "LA DIVISON ES: ".($VALOR1/$VALOR2);
 }
-
-
 ?>
+<!DOCTYPE html>
