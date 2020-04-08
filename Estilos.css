@@ -5,26 +5,26 @@
 }
 body
 {
-	background:lightgray;
+	background:#63e6be;
 	font-family: Bahnschrift, Comic Sans MS, "Arial";
 }
 #CONTENIDO
 {
-    background:gray;
+    background:#15aabf;
 	width:400px;
 	margin:6px auto;
 	border:2px solid black;
 }
 #ENCABEZADO
 {
-    background:gray;
+    background:#0b7285;
 	width:400px;
 	margin:6px auto;
 	border:2px solid black;
 }
 #PIE
 {
-    background: gray;
+    background: #0b7285;
     width: 400px;
     margin: 6px auto;
     border: 2px solid black;
@@ -38,5 +38,8 @@ header
 section
 {
 	border-bottom: 3px dashed black;
-	
+}
+footer
+{
+	color:white;
 }
