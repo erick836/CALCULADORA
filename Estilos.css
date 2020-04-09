@@ -17,6 +17,7 @@ body
 }
 #ENCABEZADO
 {
+    color:white;	
     background:#0b7285;
 	width:400px;
 	margin:6px auto;
@@ -30,14 +31,26 @@ body
     border: 2px solid black;
     color: white;
 }
-header
+h1
 {
-	color:white;
-	border-bottom: 3px dashed black;
-	
+	display:inline-block;
+	position:relative;
 }
-section
+h1::after,h1::before
 {
-	border-bottom: 3px dashed black;
+	content:'';
+	position:absolute;
+	width:40px;
+	height:2px;
+	background-color:white;
+	top:0.6em;
+}
+h1::before
+{
+	left:-50px;
+}
+h1::after
+{
+	right:-50px;
 }
 
