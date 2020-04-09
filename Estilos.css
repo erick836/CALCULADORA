@@ -1,6 +1,6 @@
 *
 {
-    margin:2px;
+    margin:20px;
     padding:2px;
 }
 body
@@ -53,4 +53,19 @@ h1::after
 {
 	right:-50px;
 }
-
+#RESULTADO
+{
+    color:white;
+    background:#15aabf;
+	width:400px;
+	margin:6px auto;
+	border:2px solid black;
+}
+#MOSTRAR
+{
+    background:#15aabf;
+	width:400px;
+	margin:6px auto;
+	border:2px solid black;
+	font-size:60px;
+}

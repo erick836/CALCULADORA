@@ -2,22 +2,50 @@
 $VALOR1=$_POST['N1'];
 $VALOR2=$_POST['N2'];
 $OPERACION=$_POST['OPERACION'];
+$RESULTADO;
  
 if ($OPERACION == 'SUMA')
 {
-	echo "LA SUMA ES: ".($VALOR1+$VALOR2);
+	$RESULTADO=($VALOR1+$VALOR2);
 }
 if ($OPERACION == 'RESTA') 
 {
-	echo "LA RESTA ES: ".($VALOR1-$VALOR2);
+    $RESULTADO=($VALOR1-$VALOR2);
 }
 if ($OPERACION == 'MULTIPLICACION')
 {
-echo "LA MULTIPLICACION ES: ".($VALOR1*$VALOR2);
+   $RESULTADO=($VALOR1*$VALOR2);
 }
 if ($OPERACION == 'DIVISION')
 {
-echo "LA DIVISON ES: ".($VALOR1/$VALOR2);
+   $RESULTADO=($VALOR1/$VALOR2);
 }
 ?>
-<!DOCTYPE html>
+
+<html>
+  
+  <head>
+   <link rel="stylesheet" type="text/css" href="Estilos.css" />
+  </head>
+
+  <body>
+   <header>
+          <div align="center" id="RESULTADO">
+              <h1> RESULTADO </h1>
+          </div>
+   </header>
+
+   <section>
+          <div align="center" id="MOSTRAR">
+              <p><?php echo $RESULTADO; ?> </p>
+          </div>
+   </section> 
+  </body>
+</html>
+
+
+
+
+
+
+
