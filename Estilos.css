@@ -28,6 +28,7 @@ body
     width: 400px;
     margin: 6px auto;
     border: 2px solid black;
+    color: white;
 }
 header
 {
@@ -39,7 +40,4 @@ section
 {
 	border-bottom: 3px dashed black;
 }
-footer
-{
-	color:white;
-}
+
